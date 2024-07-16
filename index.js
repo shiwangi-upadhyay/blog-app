@@ -23,7 +23,6 @@ const connectDatabase = require("./config/database")
 connectDatabase();
 
 
-
 app.get("/", (req, res) =>{
-    res.send(`<h1> Hello is HOMEPAGE baby </h1>`);
+    res.send(`<h1> Hello is HOMEPAGE baby </h1>`) ;
 })
